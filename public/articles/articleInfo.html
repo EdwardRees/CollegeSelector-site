@@ -1,0 +1,12 @@
+<script>
+    var proto = Object.create(HTMLElement.prototype);
+
+    proto.createdCallback = function () {
+        this.innerHTML = '<article class=\"text-left col-lg-8\">' + (this.getAttribute('text') || '?') +
+            '</article><aside class=\"col-lg-4\"><content></content></aside>';
+    };
+
+    document.registerElement('article-body', {
+        prototype: proto
+    });
+</script>

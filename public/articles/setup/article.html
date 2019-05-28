@@ -1,0 +1,13 @@
+<script>
+    var proto = Object.create(HTMLElement.prototype);
+
+    proto.createdCallback = function () {
+        this.innerHTML = '<h1>' + (this.getAttribute('title') || '?') +
+            '</h1><h6>' + (this.getAttribute('subtitle') || '?') + '</h6>By: <i>' + (this.getAttribute(
+                'byline') || '?') + '</i><br /><br />';
+    };
+
+    document.registerElement('article-header', {
+        prototype: proto
+    });
+</script>

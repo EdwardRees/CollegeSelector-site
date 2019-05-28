@@ -1,0 +1,63 @@
+.bg-first-orange {
+    background-color: #F79646;
+}
+
+.bg-second-orange {
+    background-color: #F46100;
+}
+
+.bg-first-blue {
+    background-color: #3C6074;
+}
+
+.bg-second-blue {
+    background-color: #499BC9
+}
+
+.bg-first-gray {
+    background-color: #606060
+}
+
+.bg-second-gray {
+    background-color: #F8F8F8
+}
+
+.bg-third-gray {
+    background-color: #a6a6a6
+}
+
+.bg-fourth-gray {
+    background-color: #bfbfbf
+}
+
+.bg-cs-basic-header {
+    background-color: #E26B0A
+}
+
+.bg-cs-basic-info {
+    background-color: #FABF8F
+}
+
+.bg-cs-academic-header {
+    background-color: #4F81BD
+}
+
+.bg-cs-academic-info {
+    background-color: #95B3D7
+}
+
+.bg-cs-real-header {
+    background-color: #8064BD
+}
+
+.bg-cs-real-info {
+    background-color: #B1A0C7
+}
+
+.bg-cs-financial-header {
+    background-color: #9BBB59
+}
+
+.bg-cs-financial-info {
+    background-color: #C4D79B
+}

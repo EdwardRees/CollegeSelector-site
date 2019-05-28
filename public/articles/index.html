@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description">
+    <meta name="author">
+    <title>Articles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="import" href="/articles/setup/navigation.html">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div id="navigation"></div>
+                <script>
+                    var link = document.querySelector('link[rel="import"]');
+
+                    var template = link.import.querySelector('template');
+                    var clone = document.importNode(template.content, true);
+
+                    document.querySelector('#navigation').appendChild(clone);
+                </script>
+                <h1>Articles:</h1>
+                <p>University is a huge topic. Everyone wants to apply to the best University, whether that's the top of the top, the best fit for them, the cheapest, the most competitive, or whatever the definition of "best" University is. The hardest part about applying to University is really knowing how you define that term of "best". It's relative. However, not everyone understands this. As many will say, University is a life changing experience. Finding the best University is important, but knowing the right University for you is equally important, if not more. It should also be said that there is always an option to transfer to a more suitable or better University for you. There are some articles here that approach these aforementioned thoughts, such as <a href="/articles/files/whystress.html">Why Stress?</a> <a href="/articles/files/rightuniversity.html">Finding the Right University for you</a>, and <a href="/articles/files/whytransfer.html">Why transfer?</a> My hopes are that these articles can help you think about the University process and why it's never the end of the world.</p>
+                <p>While in University, it's a fact that studying is important. However, there are many other components that are important to different people. Partying, studying, working, gaming, reading, writing, exercising, regardless of what it is, everyone has some important reason for going to University. These are all important, however, there will always be one component that will supercede everything else. This is mental health. In recent years, this topic has begun to have more light shed on it, with more people understanding the importance of it. There are a couple articles relating to this topic, for example; <a href="/articles/files/okay.html">"Why it's okay not to be okay"</a> and <a href="/articles/files/socialmedia.html">"Social Media and Cell Phones"</a>.</p>
+                <p>Please give a read through some of these as they may help through your application process, college response, your college experience, or just in life in general.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

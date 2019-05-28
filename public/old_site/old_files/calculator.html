@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css' rel='stylesheet' id='bootstrap-css'>
+    <script src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src='//maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'></script>
+    <script src='./js/menu.js'></script>
+    <link rel='stylesheet' href='./css/custom.css'>
+    <script src="./js/calculator.js"></script>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/footer.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <header></header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <span id="splusheader" style="color: #BFBFBF;">S</span><span id="splusheader" style="color: #F46100"><sup>+</sup></span>
+                <span style="color: #BFBFBF; font-size: 25px">....................</span>
+                <h1 style="color: #606060">Probability for College Acceptance</h1>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h4>Taking exams and applying to universities is difficult at the best of times, but waiting to
+                    learn if those applications are successful can be nerve wracking. You’re smart and just
+                    applied for a higher education – don’t stress; do the math!</h4>
+                <br /><br />
+            </div>
+            <div class="row">
+                <div class="form-inline row col-lg-12">
+                    <div class="form-group col-lg-3 text-center">
+                        <label for="college1" class="col-2 col-form-label">College 1</label>
+                        <div class="col-2">
+                            <input class="form-control" type="number" value="0.1" id="college1">
+                        </div>
+                    </div>
+                    <!--                        </div>-->
+                    <!--                        <div class="form-group row">-->
+                    <div class="form-group col-lg-3 text-center">
+                        <label for="college2" class="col-2 col-form-label">College 2</label>
+                        <div class="col-2">
+                            <input class="form-control" type="number" value="0.1" id="college2">
+                        </div>
+                    </div>
+
+                    <!--                        </div>-->
+                    <!--                        <div class="form-group row">-->
+                    <div class="form-group col-lg-3 text-center">
+                        <label for="college3" class="col-2 col-form-label">College 3</label>
+
+                        <div class="col-2">
+                            <input class="form-control" type="number" value="0.1" id="college3">
+                        </div>
+                    </div>
+                    <!--                        </div>-->
+                    <!--                        <div class="form-group row">-->
+                    <div class="form-group col-lg-3 text-center">
+                        <label for="college4" class="col-2 col-form-label">College 4</label>
+                        <div class="col-2">
+                            <input class="form-control" type="number" value="0.1" id="college4">
+                        </div>
+
+                    </div>
+                    <!--                        <div class="col-lg-5"></div>-->
+
+                    <div class="col-lg-12 text-center">
+                        <br />
+                        <button href="#" id="calculate" type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <!--                            <div class="col-lg-5"></div>-->
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 text-center">
+                        <h2 id="probOfAll">
+                            <b>Probability of all occurring:</b><br />
+                        </h2>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <h2 id="probOfNone">
+                            <b>Probability of none occurring:</b><br />
+                        </h2>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <h2 id="probOfAtLeastOne">
+                            <b>Probability of at least one occurring:</b><br />
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <br />
+                    <h2>Notes</h2>
+                    <ul class="text-left" style="font-size:18px">
+                        <li>This calculator takes the acceptance rates of four colleges and returns the
+                            probability of getting into all four, none of the four, and at least one of the
+                            four colleges.</li>
+                        <li>Fill in the four probabilities between 0 and 1, where a published accceptance rate
+                            of 58% is 0.58.
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div id="modal"></div>
+
+                <footer></footer>
+                <script>
+                    $("#calculate").click(function () {
+                        var c1 = $("#college1").val();
+                        var c2 = $("#college2").val();
+                        var c3 = $("#college3").val();
+                        var c4 = $("#college4").val();
+                        var probOfAll = parseFloat(c1) * parseFloat(c2) * parseFloat(c3) * parseFloat(c4)
+                        $("#probOfAll").html("<b>Probability of all occurring:</b><br />" + "≈" + Math.round(
+                            probOfAll * 100) + "%")
+                        var probOfNone = parseFloat(1 - c1) * parseFloat(1 - c2) * parseFloat(1 - c3) *
+                            parseFloat(1 - c4)
+                        $("#probOfNone").html("<b>Probability of none occurring:</b><br />" + "≈" + Math.round(
+                            probOfNone * 100) + "%")
+                        $("#probOfAtLeastOne").html("<b>Probability of at least one occurring:</b><br />" + "≈" +
+                            Math.round((1 - probOfNone) * 100) + "%")
+                    })
+                </script>
+
+                <!--
+                
+                Take a look at the College Selector. Our  tool will assist you to discover and discuss the complex decision to choose a school that fits your needs ... for about the price of a good lunch. The College Selector is more than a list. It's an interactive template helping you to organise and prioritise your own selections. Capture all your thoughts in one place and then graphically show results for your personal comparisons. Topics include groupings for academic life, real life and financial life helping you to research, and review up to 500 variables. Then review your selected schools to see their balance of your individual academic and lifestyle needs. Plot the results using your own scores together with cost projections. You will be surprised to see illustrations that help you to determine what fits your personal needs and family’s objectives best. In four simple steps, College Selector uses a spreadsheet-based template ready for use in typical desktop software. College Selector will help save you time and logically order your thoughts for up to 50 criteria applied to 10 potential schools. Start with a list, input scores for individual criteria, include estimates of your financial plans and review charts and graphs with your personalised results. Keep refining your model when you have new ideas and updated information; the results pages will continue to illustrate your latest insights. Organising and graphically highlighting your thinking are important steps to help make complicated decisions. So, download the College Selector today and get back to what matters most ……… Finding the path to a university that is the right fit ... for you
+
+                
+-->
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

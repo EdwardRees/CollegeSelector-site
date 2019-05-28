@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description">
+    <meta name="author">
+    <title>Kindness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="import" href="/articles/setup/navigation.html">
+    <link rel="import" href="/articles/setup/article.html">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div id="navigation"></div>
+                <script>
+                    var link = document.querySelector('link[rel="import"]');
+
+                    var template = link.import.querySelector('template');
+                    var clone = document.importNode(template.content, true);
+
+                    document.querySelector('#navigation').appendChild(clone);
+                </script>
+                <section class="text-left">
+                    <article-header title="Be Kind" subtitle="Why we never have an excuse to be mean" byline="Edward Rees"></article-header>
+                </section>
+                <section class="row">
+                    <article class="text-left col-lg-8">
+                        Lorem ipsum dolor sit amet consectetur, adipiscing elit sagittis semper neque, cum dignissim
+                        orci
+                        cras. Penatibus laoreet convallis cursus fermentum dictumst semper, mus nam nostra blandit
+                        consequat, sociis dapibus nascetur porta et. Class facilisis inceptos mus iaculis orci feugiat
+                        montes potenti mattis, ante pellentesque id ornare justo consequat facilisi tempus, placerat
+                        nisi
+                        nullam purus dui donec primis faucibus. Rutrum ridiculus eros et mollis nam cras mus erat,
+                        vitae
+                        congue turpis netus interdum tellus sapien, vestibulum faucibus torquent urna eleifend
+                        penatibus
+                        lacinia.
+
+                        Commodo facilisis euismod nostra nisi vestibulum felis tristique massa metus, integer magnis
+                        eleifend orci aliquet magna nam ridiculus, natoque elementum pretium bibendum dapibus per
+                        iaculis
+                        ad. Neque montes metus hendrerit magnis mattis porta conubia massa facilisi aptent, eu at class
+                        placerat sollicitudin phasellus dictum pellentesque sem senectus, nisi dis mi nibh quam dui
+                        integer
+                        vulputate dignissim. Viverra scelerisque vehicula tellus quisque dui laoreet sapien tempus
+                        platea,
+                        duis dapibus proin aenean congue per aptent ligula penatibus mus, urna nunc ut facilisis
+                        torquent
+                        quis primis bibendum. Hac turpis primis congue pellentesque commodo tortor, est tristique
+                        penatibus
+                        nostra viverra felis urna, lacus justo ultricies accumsan nisl.
+
+                        Magnis venenatis nascetur nostra proin nibh mi vestibulum, eget dictumst velit penatibus fusce
+                        porttitor aenean, faucibus torquent in senectus vulputate felis. Vitae condimentum magnis
+                        mollis
+                        libero pellentesque habitant eu, tincidunt mattis mi interdum nisl inceptos, integer gravida
+                        imperdiet non velit vehicula. Ante nunc himenaeos vel integer vulputate fermentum odio
+                        curabitur
+                        molestie, ligula nisl tempor ut commodo venenatis sem montes. Nunc netus dictum velit nec
+                        tempus
+                        auctor semper, dis id metus nascetur cras facilisis cum, bibendum risus inceptos felis magna
+                        aliquam.
+
+                    </article>
+                    <aside class="col-lg-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/University_of_Otago.jpg" alt=""
+                            class="img-fluid">
+                    </aside>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

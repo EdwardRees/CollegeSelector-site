@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "category": "Academic",
+    "question": "How much time is required from students for classwork?"
+  },
+  {
+    "id": 1,
+    "category": "Academic",
+    "question": "Are the professors helpful at guiding students?"
+  },
+  {
+    "id": 2,
+    "category": "Real Life",
+    "question": "Does the school feel large? small?"
+  },
+  {
+    "id": 3,
+    "category": "Real Life",
+    "question": "How is dormatory life like?"
+  }
+]

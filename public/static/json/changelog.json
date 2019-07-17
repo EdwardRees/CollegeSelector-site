@@ -1,0 +1,158 @@
+[
+  {
+    "versionNumber": "pre-alpha",
+    "type": "excel",
+    "description": "Original Product",
+    "date": "2014"
+  },
+  {
+    "versionNumber": "alpha_0.0.1",
+    "type": "ios",
+    "description": "Basic application without a database connection",
+    "date": "07-08 / 2016"
+  },
+  {
+    "versionNumber": "alpha_0.0.2",
+    "type": "react native",
+    "description": "- Basic application using Native Base with a form\n- No connection to database",
+    "date": "11-12 / 2016"
+  },
+  {
+    "versionNumber": "beta_0.1.0",
+    "type": "react native",
+    "description": "- New setup\n- Post Udemy course\n- Has login\n- Connected to database",
+    "date": "June 18 2017"
+  },
+  {
+    "versionNumber": "beta_0.2.0",
+    "type": "react native",
+    "description": "- Added comparison screen",
+    "date": "June 26 2017"
+  },
+  {
+    "versionNumber": "beta_0.3.0",
+    "type": "react native",
+    "description": "- Offline persistence with Redux Persist added\n- Signup Screen added\n- Reconfigured Login Screen added",
+    "date": "July 12 2017"
+  },
+  {
+    "versionNumber": "beta_0.3.1",
+    "type": "react native",
+    "description": "- Logout action created",
+    "date": "July 12 2017"
+  },
+  {
+    "versionNumber": "beta_0.4.0",
+    "type": "react native",
+    "description": "- Profile screens added",
+    "date": "July 15 2017"
+  },
+  {
+    "versionNumber": "beta_0.5.0",
+    "type": "react native",
+    "description": "- Sidebar Navigation menu added",
+    "date": "July 16 2017"
+  },
+  {
+    "versionNumber": "beta_0.5.1",
+    "type": "react native",
+    "description": "- Right hand help menus added",
+    "date": "July 18 2017"
+  },
+  {
+    "versionNumber": "beta_0.5.2",
+    "type": "react native",
+    "description": "- Information on questions for University form added",
+    "date": "July 19 2017"
+  },
+  {
+    "versionNumber": "beta_0.5.3",
+    "type": "react native",
+    "description": "- Fixed android navigation\n- Fixed back button on android",
+    "date": "July 19 2017"
+  },
+  {
+    "versionNumber": "beta_0.5.4",
+    "type": "react native",
+    "description": "- Added app icon and default images",
+    "date": "July 19 2017"
+  },
+  {
+    "versionNumber": "beta_0.6.0",
+    "type": "react native",
+    "description": "- Information on menu / information screen added\n- Menu formatted\n- Change of color schemes for University Form screen\n- Profile questions changed\n- Rating system on University added (star)\n- Login / Signup Screen changed\n\t- Rounded auth inputs w/ lefthand icon\n- Margin's added on University form and list view\n- List added lefthand icon, righthand information",
+    "date": "July 30 2017"
+  },
+  {
+    "versionNumber": "beta_0.6.1",
+    "type": "react native",
+    "description": "- Menu Icons added\n- Back and Menu in top bar icons added\n- Top bar Touchable Opacity added to handle navigation",
+    "date": "July 30 2017"
+  },
+  {
+    "versionNumber": "beta_0.7.0",
+    "type": "react native",
+    "description": "- Forgot password implemented\n- Compare ratios fixed\n- Compare options implemented but not available",
+    "date": "August 2 2017"
+  },
+  {
+    "versionNumber": "beta_0.8.0",
+    "type": "react native",
+    "description": "- Added data encryption over profile data\n- Icon in List Item matched to only show over 75% rated schools\n- Fixed TopBar Navigation\n- Removed redundancy of Touchable Opacity header\n- Change of smaller animations\n- Data reset due to encryption",
+    "date": "August 11 2017"
+  },
+  {
+    "versionNumber": "beta_0.8.1",
+    "type": "react native",
+    "description": "- Removed 'Name' input for Profile\n- First public beta release on Expo",
+    "date": "August 14 2017"
+  },
+  {
+    "versionNumber": "beta_0.9.0",
+    "type": "react native",
+    "description": "- Privacy Policy filled in\n- Terms and Conditions filled in\n- Contact me filled in\n- Registry connected to Privacy and Terms and Conditions\n- Added Communications\n- Added Settings",
+    "date": "August 19 2017"
+  },
+  {
+    "versionNumber": "beta_0.9.1",
+    "type": "react native",
+    "description": "- Change of Texts (Information, Compare Screens)\n- Removal of cost bar",
+    "date": "August 19 2017"
+  },
+  {
+    "versionNumber": "1.0.0",
+    "type": "react native",
+    "description": "- Official First Public Release",
+    "date": "August 23 2017"
+  },
+  {
+    "versionNumber": "1.1.0",
+    "type": "react native",
+    "description": "- Store information updated",
+    "date": "August 24 2017 (Google) August 28 2017 iTunes"
+  },
+  {
+    "versionNumber": "2.0.0",
+    "type": "react native",
+    "description": "- Major Update\n\t- Comparison of Total, Academic, Real Life, and Financial Inforamtion\n- Minor Update / Bug Fixes\n\t- Fixed scrolling on 'Help' information\n\t- Fixed scrolling on form sections\n\t- Fixed menu formatting\n]t- Changed information setup\n\t- Fixed mathematics and calcuations\n\t- Updated numbers",
+    "date": "October 4 2017"
+  },
+  {
+    "versionNumber": "2.1.1",
+    "type": "react native",
+    "description": "- Major Update\n\t- None\n- Minor Update / Bug Fixes\n\t- Upated formatting for Android Oreo Compatibility",
+    "date": "February 22 2018"
+  },
+  {
+    "versionNumber": "3.0.0",
+    "type": "react native",
+    "description": "- Major Update\n\t- None\n- Minor Update / Bug Fixes\n\t- Fix signup issue\n\t- Fix University Delete confirmation screen\n\t- Yearly Update",
+    "date": "November 10 2018"
+  },
+  {
+    "versionNumber": "5.0.0",
+    "type": "react native",
+    "descrition": "- Major Update\n\t- UI Redesign\n- Minor Update / Bug Fixes\n\t- 64 bit Update (Android)\n\t- UX Fix with Help Button\n\t- Fix of Inputs in New University\n\t- Change of ListView to FlatList\n\t- Login and Signup Fix",
+    "date": "Upcoming"
+  }
+]

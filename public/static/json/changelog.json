@@ -153,6 +153,6 @@
     "versionNumber": "5.0.0",
     "type": "react native",
     "descrition": "- Major Update\n\t- UI Redesign\n- Minor Update / Bug Fixes\n\t- 64 bit Update (Android)\n\t- UX Fix with Help Button\n\t- Fix of Inputs in New University\n\t- Change of ListView to FlatList\n\t- Login and Signup Fix",
-    "date": "Upcoming"
+    "date": "July 20 2019"
   }
 ]

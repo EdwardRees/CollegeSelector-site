@@ -1,22 +1,152 @@
 [
   {
     "id": 0,
+    "category": "",
+    "question": "[Category] General Questions"
+  },
+  {
+    "id": 1,
+    "category": "General",
+    "question": "What are strengths of the University?"
+  },
+  {
+    "id": 2,
+    "category": "General",
+    "question": "Why did you choose this University"
+  },
+  {
+    "id": 3,
+    "category": "",
+    "question": "[Category] Academic Life Related Questions"
+  },
+  {
+    "id": 4,
+    "category": "Academic",
+    "question": "What majors are popular?"
+  },
+  {
+    "id": 5,
+    "category": "Academic",
+    "question": "Is having a double major popular among students?"
+  },
+  {
+    "id": 6,
     "category": "Academic",
     "question": "How much time is required from students for classwork?"
   },
   {
-    "id": 1,
+    "id": 7,
     "category": "Academic",
     "question": "Are the professors helpful at guiding students?"
   },
   {
-    "id": 2,
+    "id": 8,
+    "category": "Academic",
+    "question": "How helpful have your academic advisors been?"
+  },
+  {
+    "id": 9,
+    "category": "Academic",
+    "question": "How popular is studying abroad?"
+  },
+  {
+    "id": 10,
+    "category": "Academic",
+    "question": "How accessible are professors when you need help?"
+  },
+  {
+    "id": 11,
+    "category": "Academic",
+    "question": "How flexible is the course registration process?"
+  },
+  {
+    "id": 12,
+    "category": "Academic",
+    "question": "What are the acceptance rates in ____ major? (Insert the major you're looking at)"
+  },
+  {
+    "id": 13,
+    "category": "",
+    "question": "[Category] Real Life Related Questions"
+  },
+  {
+    "id": 14,
     "category": "Real Life",
     "question": "Does the school feel large? small?"
   },
   {
-    "id": 3,
+    "id": 15,
     "category": "Real Life",
     "question": "How is dormatory life like?"
+  },
+  {
+    "id": 16,
+    "category": "Real Life",
+    "question": "What kinds of clubs are there here?"
+  },
+  {
+    "id": 17,
+    "category": "Real Life",
+    "question": "How was the transition to University life in your first year?"
+  },
+  {
+    "id": 18,
+    "category": "Real Life",
+    "question": "What is the social scene around the University like?"
+  },
+  {
+    "id": 19,
+    "category": "Real Life",
+    "question": "How difficult is it to find housing here? What services does the University provide in the housing search?"
+  },
+  {
+    "id": 20,
+    "category": "Real Life",
+    "question": "Do you feel safe on campus? What is campus security like?"
+  },
+  {
+    "id": 21,
+    "category": "Real Life",
+    "question": "What is the food on campus like?"
+  },
+  {
+    "id": 22,
+    "category": "Real Life",
+    "question": "What are the local off campus fod options like?"
+  },
+  {
+    "id": 23,
+    "category": "Real Life",
+    "question": "Does the University provide access to public transportation?"
+  },
+  {
+    "id": 24,
+    "category": "Real Life",
+    "question": "Does the University provide parking for students?"
+  },
+  {
+    "id": 25,
+    "category": "Real Life",
+    "question": "What amenities are provided by the University by living in dormitories?"
+  },
+  {
+    "id": 26,
+    "category": "Real Life",
+    "question": "What services/amenities are provided by the University for students?"
+  },
+  {
+    "id": 27,
+    "category": "",
+    "question": "[Category] Career Related Questions"
+  },
+  {
+    "id": 28,
+    "category": "Career",
+    "question": "How simple/complicated is the process to get an internship here?"
+  },
+  {
+    "id": 29,
+    "category": "Career",
+    "question": "Are internships popular here?"
   }
 ]
